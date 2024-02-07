@@ -322,7 +322,7 @@ h6 {
 --------------------------------------------------------------*/
 #hero {
   width: 100%;
-  height: 70vh;
+  height: 60vh;
   background: url("../img/hero-bg.jpg") top center;
   background-size: cover;
   position: relative;
@@ -755,6 +755,10 @@ section {
 .testimonials .testimonial-item {
   box-sizing: content-box;
   min-height: 320px;
+  text-align: center;
+  background: #f4f4f4;
+  padding: 20px 10px 10px 10px;
+  border-radius: 15px;
 }
 
 .testimonials .testimonial-item .testimonial-img {
@@ -766,18 +770,26 @@ section {
   border: 6px solid #fff;
 }
 
+.testimonials .testimonial-item h1 {
+  font-size: 60px;
+  font-weight: bolder;
+  color: #fff;
+  text-shadow: black 0px 2px;
+}
 .testimonials .testimonial-item h3 {
-  font-size: 18px;
+  font-size: 44px;
   font-weight: bold;
   margin: 10px 0 5px 45px;
-  color: #111;
+  color: #fff;
+  text-shadow: black 0px 2px;
 }
 
 .testimonials .testimonial-item h4 {
   font-size: 14px;
-  color: #999;
+  color: #fff;
   margin: 0 0 0 45px;
 }
+
 
 .testimonials .testimonial-item .quote-icon-left,
 .testimonials .testimonial-item .quote-icon-right {
@@ -799,10 +811,12 @@ section {
 }
 
 .testimonials .testimonial-item p {
-  font-style: italic;
+  font-family: 'Caveat', cursive;
+  font-size: 30px;
   margin: 0 15px 0 15px;
   padding: 20px 20px 60px 20px;
-  background: #fafafc;
+  color: #fff;
+  text-shadow: black 0px 2px;
   position: relative;
   border-radius: 6px;
   position: relative;
