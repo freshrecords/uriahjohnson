@@ -418,6 +418,7 @@ h6 {
 --------------------------------------------------------------*/
 section {
   padding: 60px 0;
+  position:relative
 }
 
 .section-bg {
@@ -1428,6 +1429,7 @@ section {
   color: #414c64;
   font-size: 14px;
   background: #f4f5f8;
+  position: relative;
 }
 
 #footer .footer-top {
