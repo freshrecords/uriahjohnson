@@ -373,19 +373,7 @@ h6 {
   font-size: 22px;
 }
 
-#hero .btn-get-started {
-  font-family: 'Playfair Display', serif;
-  font-weight: 500;
-  font-size: 15px;
-  letter-spacing: 1px;
-  display: inline-block;
-  padding: 9px 35px;
-  border-radius: 50px;
-  transition: 0.5s;
-  margin-top: 40px;
-  border: 2px solid #ffc107;
-  color: #fff;
-}
+#hero 
 
 #hero .btn-get-started:hover {
   background:  rgba(151, 4, 4, 0.9);
@@ -759,6 +747,23 @@ section {
 
 .cta .cta-btn:hover {
   background: #ffc107;
+}
+
+.btn-get-started {
+  font-family: 'Playfair Display', serif;
+  font-weight: 500;
+  font-size: 15px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 9px 35px;
+  border-radius: 50px;
+  transition: 0.5s;
+  margin-top: 40px;
+  border: 2px solid #ffc107;
+  color: #fff;
+}
+.btn-get-started:hover {
+  background:  rgba(151, 4, 4, 0.9);
 }
 
 /*--------------------------------------------------------------
