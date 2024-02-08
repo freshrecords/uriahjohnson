@@ -12,8 +12,16 @@
 body {
   font-family: 'Playfair Display', serif;
   color: #444444;
+  background-image: url('../img/hero-bg.jpg');
 }
-
+/* Style the video: 100% width and height to cover the entire window */
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%; 
+  min-height: 100%;
+}
 a {
   color: #ffc107;
   text-decoration: none;
@@ -408,6 +416,7 @@ h6 {
 --------------------------------------------------------------*/
 section {
   padding: 60px 0;
+  position: relative;
 }
 
 .section-bg {
@@ -1417,6 +1426,7 @@ section {
   color: #414c64;
   font-size: 14px;
   background: #f4f5f8;
+  position: relative;
 }
 
 #footer .footer-top {
